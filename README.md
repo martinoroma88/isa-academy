@@ -1,1 +1,4 @@
-# Interreligious Studies Academy
+naked-wordpress
+===============
+
+A well-commented blank Wordpress theme.

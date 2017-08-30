@@ -1,0 +1,49 @@
+/*
+Theme Name: Naked Wordpress
+Theme URI: http://bckmn.com/naked-wordpress
+Author: J Beckman
+Author URI: http://bckmn.com
+Description: A super bare theme for designers who don't know Wordpress PHP but want to build with Wordpress.
+Version: 1.0
+License: GNU General Public License
+
+-------------------------------------------------------------- */
+
+
+.partner-card img { width: 87px !important; }
+
+#pro-gallery {margin-bottom: 50px;}
+
+#in_evidenza .card-image { margin-bottom: 50px !important; }
+
+.page-template-page-chi_siamo .blog-post .imgOnlyOne {
+	float: left;
+	position: relative;
+	left: -50px;
+	padding: 25px 0;
+}
+
+.page-template-page-chi_siamo .blog-post .imgOnlyTwo {
+	float: right;
+	position: relative;
+	left: 50px;
+	padding: 25px 0;
+}
+
+.page-template-page-chi_siamo .blog-post .imgOnlyOne img,
+.page-template-page-chi_siamo .blog-post .imgOnlyTwo img {
+	width: 250px;
+	height: auto;
+}
+
+@media (max-width: 768px) {
+	.page-template-page-chi_siamo .blog-post .imgOnlyOne,
+	.page-template-page-chi_siamo .blog-post .imgOnlyTwo {
+		float: none;
+		position: static;
+	}
+	.page-template-page-chi_siamo .blog-post .imgOnlyOne img,
+	.page-template-page-chi_siamo .blog-post .imgOnlyTwo img {
+		width: 100%;
+	}
+}
