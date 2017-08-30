@@ -57,7 +57,7 @@
 	        <span class="icon-bar"></span>
 	      </button>-->
 	      <a class="navbar-brand" href="<?php echo get_site_url(); ?>">
-	      	<img id="logo" src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.png"></img>
+	      	<img id="logo" src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.svg"></img>
 	      </a>
 	    </div>
 	
