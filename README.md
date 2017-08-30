@@ -1,1 +1,1 @@
-# isa_academy
+# Interreligious Studies Academy
